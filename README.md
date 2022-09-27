@@ -37,7 +37,7 @@ More specifically I used the Python TensorFlow library to create a binary classi
 ![opt3](https://user-images.githubusercontent.com/104606589/192432422-1cac4a87-ff25-4aff-bdaf-14c1325611c3.png)
 
 #### Outcome
-- I was not able to achieve the goal of getting to 75% accuracy.
+- I did my best to increase the accuracey through manipulating the size of the nodes used in the model, the number of hidden layers, and the number of epoch's the model ran for.  Unfortunately, I was not able to achieve the goal of getting to 75% accuracy.
 
 ### Summary
 I had the best results 72.6% when I ran the model with 2 hidden layers for 100 epoch's.  I was unable to reach my goal of 75% through manipulating the hidden layers and would recommend eliminating some more of the "noise" form the data.  I would also consider running the data through a random forest classifier model to see if I could come up with a more accurate predictor.
